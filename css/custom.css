@@ -1,0 +1,105 @@
+.jumbotron {
+  background-image: url("../images/fruit-and-veg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  min-height: 600px;
+  padding-top: 100px;
+}
+
+.jumbotron h1 {
+  font-family: "Vast Shadow", cursive;
+  color: white;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+.carousel-caption h3 {
+  font-family: 'Vast Shadow', cursive;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 2.5rem
+  }
+
+  form button {
+    margin: 10px;
+  }
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+blockquote p {
+  line-height: 1.2em;
+}
+
+blockquote footer {
+  font-size: 70%;
+}
+
+#buzz {
+  padding: 50px 0;
+}
+
+#mission {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding: 50px 0;
+}
+
+.form-inline label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.form-inline input {
+  min-width: 300px;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: rgba(32. 35, 41, 0.8);
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+}
+
+.btn-facebook {
+  background-color: #3b5998
+}
+
+.btn-pinterest {
+  background-color: #bd081c;
+}
+
+.btn-twitter:hover {
+  background-color: #60BDF6;
+}
+
+.btn-facebook:hover {
+  background-color: #768bb7;
+}
+
+.btn-pinterest:hover {
+  background-color: #D15260;
+}
+
+#colophon p {
+  font-size: 80%;
+  color: #333;
+}
+
+#colophon a {
+  color: #333;
+  text-decoration: underline;
+}
